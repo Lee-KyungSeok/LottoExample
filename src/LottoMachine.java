@@ -57,6 +57,12 @@ public class LottoMachine {
 				break;
 			}
 		}
+		/*
+		 * 아래와 같이 6개 저장 가능
+		for( ; 6>treeSet.size() ; ) { // 조건이 비어도 된다.
+		treeSet.add(random.nextInt(45)+1);
+		}
+		*/
 		
 		//List에 값을 저장
 		Iterator<Integer> iterator = lottoStore.iterator();

@@ -79,10 +79,13 @@ public ArrayList<Integer> getLottoNumber2() {
 ```
 #### 참고
 -참고-</br>
-동적 배열 : 크기를 제한하지 않는 객체 배열</br>
-종류 : List, Set, Map</br>
-		List = 인덱스와 값을 가지고 있는 배열</br>
- 		Set = 리스트와 유사하지만 중복값이 입력되지 않는다.</br>
-		Map = 키와 값을 가지고 있는 동적 배열, 값의 중복이 허용된다.</br>
-			  Map map = new Hashmap();</br>
-				map.put("키", 값);</br>
+* 동적 배열 : 크기를 제한하지 않는 객체 배열</br>
+* 종류 : List, Set, Map</br>
+ * List = 인덱스와 값을 가지고 있는 배열</br>
+ * Set = 리스트와 유사하지만 중복값이 입력되지 않는다.</br>
+ * Map = 키와 값을 가지고 있는 동적 배열, 값의 중복이 허용된다.
+ ```java
+ //Map 형식
+ Map map = new Hashmap();
+ map.put("Key", Value);
+ ```
